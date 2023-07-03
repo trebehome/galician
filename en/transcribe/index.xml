@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transcribes on Demos | TREBE Language Technologies S.L.</title>
+    <link>https://trebehome.github.io/galician/en/transcribe/</link>
+    <description>Recent content in Transcribes on Demos | TREBE Language Technologies S.L.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://trebehome.github.io/galician/en/transcribe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streaming transcription</title>
+      <link>https://trebehome.github.io/galician/en/transcribe/streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/en/transcribe/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcribe</title>
+      <link>https://trebehome.github.io/galician/en/transcribe/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/en/transcribe/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcribe online</title>
+      <link>https://trebehome.github.io/galician/en/transcribe/online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/en/transcribe/online/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

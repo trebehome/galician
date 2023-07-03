@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demos | TREBE Language Technologies S.L.</title>
+    <link>https://trebehome.github.io/galician/es/</link>
+    <description>Recent content on Demos | TREBE Language Technologies S.L.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="https://trebehome.github.io/galician/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Síntesis de voz</title>
+      <link>https://trebehome.github.io/galician/es/s%C3%ADntesis/texto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/s%C3%ADntesis/texto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solicitar clave</title>
+      <link>https://trebehome.github.io/galician/es/solicitar/clave/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/solicitar/clave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traducción</title>
+      <link>https://trebehome.github.io/galician/es/traducci%C3%B3n/texto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/traducci%C3%B3n/texto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traducción de documentos</title>
+      <link>https://trebehome.github.io/galician/es/traducci%C3%B3n/documentos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/traducci%C3%B3n/documentos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traducción de subtítulos</title>
+      <link>https://trebehome.github.io/galician/es/traducci%C3%B3n/subtitulos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/traducci%C3%B3n/subtitulos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcripción</title>
+      <link>https://trebehome.github.io/galician/es/transcripci%C3%B3n/multimedia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/transcripci%C3%B3n/multimedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcripción en streaming</title>
+      <link>https://trebehome.github.io/galician/es/transcripci%C3%B3n/streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/transcripci%C3%B3n/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcripción online</title>
+      <link>https://trebehome.github.io/galician/es/transcripci%C3%B3n/online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/es/transcripci%C3%B3n/online/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Translate | Trebe</title>
+    <meta name="description" content="Text translation">
+    
+    <base href="https://trebehome.github.io/galician/en/">
+    
+    <link rel="alternate" hreflang="es" href="https://trebehome.github.io/galician/es/traducci%C3%B3n/texto/">
+    
+    <link rel="alternate" hreflang="eu" href="https://trebehome.github.io/galician/eu/itzuli/testua/">
+    
+    <link rel="alternate" hreflang="en" href="https://trebehome.github.io/galician/en/translate/text/">
+    
+    <link rel="alternate" hreflang="ca" href="https://trebehome.github.io/galician/ca/traducci%C3%B3/text/">
+    
+    <link rel="alternate" hreflang="gl" href="https://trebehome.github.io/galician/gl/traduci%C3%B3n/texto/">
+    
+    <link rel="alternate" hreflang="x-default" href="https://trebehome.github.io/galician/en/translate/text/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest" crossorigin="anonymous">
+    <meta name="theme-color" content="#031f46">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://trebehome.github.io/galician/css/styles.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=228120305"></script>
+    
+    <script src="https://trebehome.github.io/galician/js/gtag.min.js"></script>
+</head><body><nav class="navbar navbar-expand-lg bg-white position-sticky py-lg-2 py-1">
+	<div class="container-fluid">
+		
+		<a href="https://trebehome.github.io/galician/en/" class="navbar-brand ms-lg-4 ms-2 me-lg-5">
+			<img src="/img/trebe_logo.svg" width="140" height="63" class="img-fluid" alt="Logo">
+		</a>
+		<button class="navbar-toggler me-3" id="menu-button" type="button" data-bs-toggle="collapse"
+			data-bs-target="#menu-options" aria-controls="menu-options" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<div class="position-relative m-0" id="menu-icon">
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+			</div>
+		</button>
+		<div class="collapse navbar-collapse" id="menu-options">
+			<ul class="navbar-nav ms-auto me-lg-4 text-center align-items-lg-center align-items-start">
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Translate
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/translate/text/">
+									Text translation
+								</a>
+							</li>
+						
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Transcribe
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/transcribe/media/">
+									Transcribe media file
+								</a>
+							</li>
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/transcribe/online/">
+									Online transcription
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="nav-item d-flex justify-content-center align-items-center mx-4 mb-lg-0 mb-3">
+					<select class="form-control text-dark text-uppercase" id="changeLang">
+						<option selected>en</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/es/traducci%C3%B3n/texto/">es</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/eu/itzuli/testua/">eu</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/ca/traducci%C3%B3/text/">ca</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/gl/traduci%C3%B3n/texto/">gl</option>
+						
+					</select>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><div id="content">
+<div class="container mt-4 px-3 pt-lg-4 mb-lg-0 mb-5 pb-lg-0 pb-5">
+    <h3 class="ms-2">
+        Text translation
+    </h3>
+    <div class="row mt-4">
+        <div class="col-12 row m-0"><div class="col-lg-4 col-12 mt-2">
+    <label class="mb-1" for="model">Model:</label>
+    <select class="form-select" id="model" name="model">
+        <option value="es2gl">Spanish - Galician</option>
+        <option value="gl2es">Galician - Spanish</option>
+    </select>
+</div><div class="col-lg-8 col-12 mt-lg-0 mt-2 pe-0 row justify-content-lg-end">
+    <div class="col-lg-8 col-12 m-0 pe-0">
+        <div class="text-lg-end my-2">
+            <div class="d-flex text-start mb-1">
+                <label class="col-6" for="apiKey">API key:</label>
+                <span class="col-6 text-end">
+                    
+                    <a href="https://trebehome.github.io/galician/en/request/key/" class="nav-link d-inline pe-0 poppins-light">
+                        I don&#39;t have a key
+                    </a>
+                </span>
+            </div>
+            <div class="text-start">
+                <input type="text" class="form-control poppins-light" id="apiKey">
+            </div>
+        </div>
+    </div>
+</div></div>
+        <div class="row mt-3 m-0" id="translationBoxes">
+            <div class="col-lg-6 col-12">
+                <label for="inputText" class="hidden-label">Input</label>
+                <textarea class="col-12 rounded-3" id="inputText" name="inputText" rows="12"
+                    placeholder='Text input'></textarea>
+            </div>
+            <button type="button" class="btn m-1 mt-lg-3 pt-2" id="swapLanguages" aria-label="swapLanguages">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                    class="bi bi-arrow-left-right mb-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+            </button>
+            <div class="col-lg-6 col-12">
+                <label for="outputText" class="hidden-label">Output</label>
+                <textarea class="col-12 rounded-3" id="outputText" rows="12" disabled></textarea>
+                <button type="button" class="btn bg-light text-center" id="clipboard" aria-label="clipboard"
+                    data-bs-toggle="tooltip" data-bs-trigger="focus" title='Copied'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-files" viewBox="0 0 16 16">
+                        <path
+                            d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="col-12 text-center">
+                <button type="button" class="btn m-1 mt-2 text-white" id="translateButton" aria-label="translateButton">
+                    Translate
+                </button>
+                <button type="button" class="btn m-1 mt-2 text-white" id="clearButton" aria-label="clearButton">
+                    Clear
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div><footer class="bg-light py-4 mt-5">
+    <div class="row justify-content-center m-0">
+        <div class="col-lg-5 col-12 text-center mb-lg-0 mb-1">
+            <img src="/img/footer_logo.svg" width="143" height="106" alt="Logo">
+        </div>
+        <div class="col-lg-7 col-12 d-flex justify-content-evenly flex-wrap align-content-center mt-lg-0 mt-4">
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-md-0 mb-3 ps-lg-5">
+                <div class="mb-1">
+                    We are here
+                </div>
+                <div class="mt-1 poppins-light">
+                    Paseo Mikeletegi 71, 3º
+                    <br>
+                    Vicomtech Innovation Hub
+                    <br>
+                    Donostia, 20009
+                </div>
+            </div>
+            <div class="d-lg-none d-md-none w-100"></div>
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-4">
+                <div class="mb-1">
+                    Contact
+                </div>
+                <div class="mt-1 poppins-light">
+                    <a href="mailto:info@trebe.org" class="text-decoration-none poppins-light" id="contact-email">
+                        info@trebe.org
+                    </a>
+                    <br>
+                    <span class="poppins-light">
+                        +(34) 943 768 296
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://trebehome.github.io/galician/js/translateText.min.js"></script>
+</body>
+
+</html>

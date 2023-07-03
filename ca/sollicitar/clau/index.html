@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ca"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sol·licitar clau | Trebe</title>
+    <meta name="description" content="Sol·licitar clau API">
+    
+    <base href="https://trebehome.github.io/galician/ca/">
+    
+    <link rel="alternate" hreflang="es" href="https://trebehome.github.io/galician/es/solicitar/clave/">
+    
+    <link rel="alternate" hreflang="eu" href="https://trebehome.github.io/galician/eu/eskatu/gakoa/">
+    
+    <link rel="alternate" hreflang="en" href="https://trebehome.github.io/galician/en/request/key/">
+    
+    <link rel="alternate" hreflang="ca" href="https://trebehome.github.io/galician/ca/sollicitar/clau/">
+    
+    <link rel="alternate" hreflang="gl" href="https://trebehome.github.io/galician/gl/sollicitar/chave/">
+    
+    <link rel="alternate" hreflang="x-default" href="https://trebehome.github.io/galician/ca/sollicitar/clau/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest" crossorigin="anonymous">
+    <meta name="theme-color" content="#031f46">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://trebehome.github.io/galician/css/styles.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=228120305"></script>
+    
+    <script src="https://trebehome.github.io/galician/js/gtag.min.js"></script>
+</head><body><nav class="navbar navbar-expand-lg bg-white position-sticky py-lg-2 py-1">
+	<div class="container-fluid">
+		
+		<a href="https://trebehome.github.io/galician/ca/" class="navbar-brand ms-lg-4 ms-2 me-lg-5">
+			<img src="/img/trebe_logo.svg" width="140" height="63" class="img-fluid" alt="Logo">
+		</a>
+		<button class="navbar-toggler me-3" id="menu-button" type="button" data-bs-toggle="collapse"
+			data-bs-target="#menu-options" aria-controls="menu-options" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<div class="position-relative m-0" id="menu-icon">
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+			</div>
+		</button>
+		<div class="collapse navbar-collapse" id="menu-options">
+			<ul class="navbar-nav ms-auto me-lg-4 text-center align-items-lg-center align-items-start">
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Traducció
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/ca/traducci%C3%B3/text/">
+									Traducció de text
+								</a>
+							</li>
+						
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Transcripció
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/ca/transcripci%C3%B3/multim%C3%A8dia/">
+									Transcripció multimèdia
+								</a>
+							</li>
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/ca/transcripci%C3%B3/online/">
+									Transcripció online
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="nav-item d-flex justify-content-center align-items-center mx-4 mb-lg-0 mb-3">
+					<select class="form-control text-dark text-uppercase" id="changeLang">
+						<option selected>ca</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/es/solicitar/clave/">es</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/eu/eskatu/gakoa/">eu</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/en/request/key/">en</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/gl/sollicitar/chave/">gl</option>
+						
+					</select>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><div id="content">
+<div class="container mt-4 px-3 pt-lg-4 mb-lg-0 mb-5 pb-lg-0 pb-5">
+    <h3 class="ms-2">
+        Sol·licitar clau
+    </h3>
+    <div class="row mt-4">
+        <div class="row mt-3 m-0 justify-content-center">
+            <form class="row justify-content-lg-start" action="https://api.staticforms.xyz/submit" method="post">
+                <div class="col-lg-6 col-12 pe-lg-5">
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="name">Nom:</label>
+                        <input type="text" maxlength="64" class="form-control poppins-light " id="name" name="$name"
+                            required>
+                    </div>
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="surname">Cognoms:</label>
+                        <input type="text" maxlength="128" class="form-control poppins-light" id="surname"
+                            name="$surname" required>
+                    </div>
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="company">Empresa:</label>
+                        <input type="text" maxlength="64" class="form-control poppins-light" id="company"
+                            name="$company" required>
+                    </div>
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="email">Email:</label>
+                        <input type="text" maxlength="128" class="form-control poppins-light" id="email" name="$email"
+                            required>
+                    </div>
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="phone">Telèfon:</label>
+                        <input type="text" maxlength="64" class="form-control poppins-light" id="phone" name="$phone"
+                            required>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 ps-lg-4">
+                    <div class="text-start my-3">
+                        <label class="mb-1" for="comments">Comentaris:</label>
+                        <textarea type="text" maxlength="8192" class="form-control poppins-light" id="comments"
+                            name="$comments" placeholder='Per què t&#39;interessa? Quins serveis utilitzaràs?' rows="12" required></textarea>
+                    </div>
+
+                    <input type="text" name="honeypot">
+                    <input type="hidden" name="accessKey" value="b69ea341-099e-4479-bddb-ea7d2822ddbd">
+                    <input type="hidden" name="subject" value="API key request">
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="https://demo.trebe.org/ca">
+
+                    <div class="text-start my-3 text-center">
+                        <button type="submit" class="btn mt-2 text-white" id="requestButton">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    </div><footer class="bg-light py-4 mt-5">
+    <div class="row justify-content-center m-0">
+        <div class="col-lg-5 col-12 text-center mb-lg-0 mb-1">
+            <img src="/img/footer_logo.svg" width="143" height="106" alt="Logo">
+        </div>
+        <div class="col-lg-7 col-12 d-flex justify-content-evenly flex-wrap align-content-center mt-lg-0 mt-4">
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-md-0 mb-3 ps-lg-5">
+                <div class="mb-1">
+                    Estem en
+                </div>
+                <div class="mt-1 poppins-light">
+                    Paseo Mikeletegi 71, 3º
+                    <br>
+                    Vicomtech Innovation Hub
+                    <br>
+                    Donostia, 20009
+                </div>
+            </div>
+            <div class="d-lg-none d-md-none w-100"></div>
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-4">
+                <div class="mb-1">
+                    Contacte
+                </div>
+                <div class="mt-1 poppins-light">
+                    <a href="mailto:info@trebe.org" class="text-decoration-none poppins-light" id="contact-email">
+                        info@trebe.org
+                    </a>
+                    <br>
+                    <span class="poppins-light">
+                        +(34) 943 768 296
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://trebehome.github.io/galician/js/main.min.js"></script>
+</body>
+
+</html>

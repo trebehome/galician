@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demos | TREBE Language Technologies S.L.</title>
+    <link>https://trebehome.github.io/galician/eu/</link>
+    <description>Recent content on Demos | TREBE Language Technologies S.L.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>eu</language><atom:link href="https://trebehome.github.io/galician/eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ahotsaren sistesia</title>
+      <link>https://trebehome.github.io/galician/eu/sintesia/testua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/sintesia/testua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azpitituluak itzuli</title>
+      <link>https://trebehome.github.io/galician/eu/itzuli/azpitituluak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/itzuli/azpitituluak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dokumentu bat itzuli</title>
+      <link>https://trebehome.github.io/galician/eu/itzuli/dokumentuak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/itzuli/dokumentuak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eskatu gakoa</title>
+      <link>https://trebehome.github.io/galician/eu/eskatu/gakoa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/eskatu/gakoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Itzuli</title>
+      <link>https://trebehome.github.io/galician/eu/itzuli/testua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/itzuli/testua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online transkribatu</title>
+      <link>https://trebehome.github.io/galician/eu/transkribatu/online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/transkribatu/online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streaming bidez transkribatu</title>
+      <link>https://trebehome.github.io/galician/eu/transkribatu/streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/transkribatu/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transkribatu</title>
+      <link>https://trebehome.github.io/galician/eu/transkribatu/multimedia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/galician/eu/transkribatu/multimedia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

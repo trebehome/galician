@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Transcribe | Trebe</title>
+    <meta name="description" content="Transcribe media file">
+    
+    <base href="https://trebehome.github.io/galician/en/">
+    
+    <link rel="alternate" hreflang="es" href="https://trebehome.github.io/galician/es/transcripci%C3%B3n/multimedia/">
+    
+    <link rel="alternate" hreflang="eu" href="https://trebehome.github.io/galician/eu/transkribatu/multimedia/">
+    
+    <link rel="alternate" hreflang="en" href="https://trebehome.github.io/galician/en/transcribe/media/">
+    
+    <link rel="alternate" hreflang="ca" href="https://trebehome.github.io/galician/ca/transcripci%C3%B3/multim%C3%A8dia/">
+    
+    <link rel="alternate" hreflang="gl" href="https://trebehome.github.io/galician/gl/transcrici%C3%B3n/multimedia/">
+    
+    <link rel="alternate" hreflang="x-default" href="https://trebehome.github.io/galician/en/transcribe/media/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest" crossorigin="anonymous">
+    <meta name="theme-color" content="#031f46">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://trebehome.github.io/galician/css/styles.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=228120305"></script>
+    
+    <script src="https://trebehome.github.io/galician/js/gtag.min.js"></script>
+</head><body><nav class="navbar navbar-expand-lg bg-white position-sticky py-lg-2 py-1">
+	<div class="container-fluid">
+		
+		<a href="https://trebehome.github.io/galician/en/" class="navbar-brand ms-lg-4 ms-2 me-lg-5">
+			<img src="/img/trebe_logo.svg" width="140" height="63" class="img-fluid" alt="Logo">
+		</a>
+		<button class="navbar-toggler me-3" id="menu-button" type="button" data-bs-toggle="collapse"
+			data-bs-target="#menu-options" aria-controls="menu-options" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<div class="position-relative m-0" id="menu-icon">
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+			</div>
+		</button>
+		<div class="collapse navbar-collapse" id="menu-options">
+			<ul class="navbar-nav ms-auto me-lg-4 text-center align-items-lg-center align-items-start">
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Translate
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/translate/text/">
+									Text translation
+								</a>
+							</li>
+						
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Transcribe
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/transcribe/media/">
+									Transcribe media file
+								</a>
+							</li>
+							
+							<li>
+								<a class="dropdown-item my-2" href="https://trebehome.github.io/galician/en/transcribe/online/">
+									Online transcription
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="nav-item d-flex justify-content-center align-items-center mx-4 mb-lg-0 mb-3">
+					<select class="form-control text-dark text-uppercase" id="changeLang">
+						<option selected>en</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/es/transcripci%C3%B3n/multimedia/">es</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/eu/transkribatu/multimedia/">eu</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/ca/transcripci%C3%B3/multim%C3%A8dia/">ca</option>
+						
+						<option class="language" value="https://trebehome.github.io/galician/gl/transcrici%C3%B3n/multimedia/">gl</option>
+						
+					</select>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><div id="content">
+<div class="container mt-4 px-3 pt-lg-4 mb-lg-0 mb-5 pb-lg-0 pb-5">
+    <h3 class="ms-2">
+        Transcribe media file
+    </h3>
+    <div class="row mt-4">
+        <div class="col-12 row m-0">
+            <div class="col-lg-4 col-12 mt-2">
+                <label class="mb-1" for="model">Model:</label>
+                <select class="form-select" id="model" name="model">
+                    <option value="es_gl">Spanish - Galician</option>
+                </select>
+            </div><div class="col-lg-8 col-12 mt-lg-0 mt-2 pe-0 row justify-content-lg-end">
+    <div class="col-lg-8 col-12 m-0 pe-0">
+        <div class="text-lg-end my-2">
+            <div class="d-flex text-start mb-1">
+                <label class="col-6" for="apiKey">API key:</label>
+                <span class="col-6 text-end">
+                    
+                    <a href="https://trebehome.github.io/galician/en/request/key/" class="nav-link d-inline pe-0 poppins-light">
+                        I don&#39;t have a key
+                    </a>
+                </span>
+            </div>
+            <div class="text-start">
+                <input type="text" class="form-control poppins-light" id="apiKey">
+            </div>
+        </div>
+    </div>
+</div></div>
+        <div class="col-12 row m-0">
+            <div class="col-12 mt-3 row pe-0">
+                <div class="col-lg-4 col-12 pe-0 mb-lg-0 mb-3">
+                    <input class="form-control form-control-sm" type="text" name="output-name" id="output-name"
+                        placeholder='Output filename (optional)'>
+                    <label class="hidden-label" for="output-name">Output</label>
+                </div>
+                <div class="col-lg-4 col-12 ms-lg-3">
+                    <div class="form-check mb-lg-0 mb-1">
+                        <input class="form-check-input" type="radio" name="email-response" id="email-link"
+                            value="email-link" checked>
+                        <label class="form-check-label" for="email-link">
+                            Send link
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="email-response" id="email-attachment"
+                            value="email-attachment">
+                        <label class="form-check-label" for="email-attachment">
+                            Send attachment
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 row m-0 my-lg-0 my-3">
+            <div class="col-12 mt-1">
+                <input class="form-check-input" type="checkbox" id="diarization">
+                <label class="form-check-label me-1" for="diarization">Diarization</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                    class="bi bi-info-circle" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-trigger="hover" title='Speaker identification'>
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                </svg>
+            </div>
+        </div>
+        <div class="col-12 row m-0">
+            <div class="col-12 row mt-lg-3 mt-1">
+                <div class="mb-1">
+                    Output formats:
+                </div>
+                <div class="ms-2">
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-srt" checked>
+                        <label class="form-check-label me-2" for="format-srt">.srt</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-rtf" checked>
+                        <label class="form-check-label me-2" for="format-rtf">.rtf</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-stl" checked>
+                        <label class="form-check-label me-2" for="format-stl">.stl</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-vtt" checked>
+                        <label class="form-check-label me-2" for="format-vtt">.vtt</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-txt" checked>
+                        <label class="form-check-label me-2" for="format-txt">.txt</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-xml" checked>
+                        <label class="form-check-label me-2" for="format-xml">.xml</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-json" checked>
+                        <label class="form-check-label me-2" for="format-json">.json</label>
+                    </div>
+                    <div class="form-group d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="format-mjson" checked>
+                        <label class="form-check-label" for="format-mjson">.mjson</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3 px-4 m-0">
+            <div class="col-lg-6 col-12 row justify-content-center align-content-center m-0 p-0 border rounded-3">
+                <div class="py-4 text-center" id="fileWrapper">
+                    <label for="inputFile" class="hidden-label">Input</label>
+                    <label for="inputFile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor"
+                            class="bi bi-file-earmark-music-text my-4" viewBox="0 0 16 16">
+                            <path
+                                d="M11 6.64a1 1 0 0 0-1.243-.97l-1 .25A1 1 0 0 0 8 6.89v4.306A2.572 2.572 0 0 0 7 11c-.5 0-.974.134-1.338.377-.36.24-.662.628-.662 1.123s.301.883.662 1.123c.364.243.839.377 1.338.377.5 0 .974-.134 1.338-.377.36-.24.662-.628.662-1.123V8.89l2-.5V6.64z" />
+                            <path
+                                d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+                        </svg>
+                        <input type="file" id="inputFile" accept=".mp3,.mp4,.wav">
+                    </label>
+                    <div class="poppins-light">
+                        Drop file here
+                        <br>
+                        <span class="text-sm">.mp3 .mp4 .wav</span>
+                    </div>
+                    <div class="mt-3 poppins-light" id="filename"></div>
+                </div>
+                <button class="btn mb-3 text-white" id="transcribeButton">
+                    Transcribe
+                </button>
+            </div>
+            <div class="col-lg-6 col-12 row justify-content-center align-content-center p-0 ps-lg-5 m-0 mt-lg-0 mt-5">
+                <div class="text-center mb-2">
+                    <div id="loading_file">
+                        <h3 class="mb-4">Loading file...</h3>
+                    </div>
+                    <div class="poppins-light" id="wait_email">
+                        We&#39;ll transcribe the file and <span>you&#39;ll receive the result in your email</span>.
+                        <br>
+                        <br>
+                        This may take a few minutes
+                    </div>
+                </div>
+                <div class="text-center mb-2 poppins-light" id="responseBad"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div><footer class="bg-light py-4 mt-5">
+    <div class="row justify-content-center m-0">
+        <div class="col-lg-5 col-12 text-center mb-lg-0 mb-1">
+            <img src="/img/footer_logo.svg" width="143" height="106" alt="Logo">
+        </div>
+        <div class="col-lg-7 col-12 d-flex justify-content-evenly flex-wrap align-content-center mt-lg-0 mt-4">
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-md-0 mb-3 ps-lg-5">
+                <div class="mb-1">
+                    We are here
+                </div>
+                <div class="mt-1 poppins-light">
+                    Paseo Mikeletegi 71, 3º
+                    <br>
+                    Vicomtech Innovation Hub
+                    <br>
+                    Donostia, 20009
+                </div>
+            </div>
+            <div class="d-lg-none d-md-none w-100"></div>
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-4">
+                <div class="mb-1">
+                    Contact
+                </div>
+                <div class="mt-1 poppins-light">
+                    <a href="mailto:info@trebe.org" class="text-decoration-none poppins-light" id="contact-email">
+                        info@trebe.org
+                    </a>
+                    <br>
+                    <span class="poppins-light">
+                        +(34) 943 768 296
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://trebehome.github.io/galician/js/transcribeMedia.min.js"></script>
+</body>
+
+</html>
